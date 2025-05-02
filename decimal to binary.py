@@ -4,12 +4,12 @@ def binary(n):
         return 
     else:
         while(n!=0):
-            a= n % 2
+            a = n % 2
             l.append(str(a))
-            n= n // 
+            n= n // 2
     l=l[::-1]
     return " ".join(l)
 n=int(input("enter a number"))
 print(binary(n))  
         
-        
+   
